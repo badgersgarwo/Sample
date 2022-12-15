@@ -6,5 +6,7 @@ pipeline {
             steps {
                 git 'https://github.com/badgersgarwo/Sample.git'
                 sh './mvnm clean compile'
+            }
+        }
     }
 }
